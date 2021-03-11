@@ -1,4 +1,4 @@
-package Methodreferences;
+
 interface V{  
     void w(String msg); 
 }  
