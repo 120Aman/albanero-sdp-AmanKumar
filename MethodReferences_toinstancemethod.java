@@ -1,4 +1,4 @@
-package Methodreferences;
+
 interface Sayable1{  
     void say();  
 }  
