@@ -1,4 +1,4 @@
-package dequeue;
+
 import java.util.*; 
 public class Arraydequeue {
 	 
