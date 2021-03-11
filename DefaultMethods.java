@@ -1,4 +1,4 @@
-package Defaultmethods;
+
 interface Show{       
     default void show(){    
         System.out.println("Hello, this is default method");    
