@@ -1,4 +1,4 @@
-package exceptions;
+
 
 public class Throws {
 static void demo() throws IllegalAccessException {
