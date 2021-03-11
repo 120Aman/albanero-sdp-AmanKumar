@@ -1,4 +1,4 @@
-package sortedsetinterface;
+
 import java.util.*;  
 public class treeset {
 	
