@@ -1,4 +1,4 @@
-package Lambdaexpressions;
+
 
 interface Show{  
     void show();  
