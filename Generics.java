@@ -10,7 +10,7 @@ class Gen<T>{
 		System.out.println("Tyoe of T is" + ob.getClass().getName());
 	}
 }
-public class example {
+public class Generics {
 
 	public static void main(String[] args) {
 		Gen<Integer> iob;
