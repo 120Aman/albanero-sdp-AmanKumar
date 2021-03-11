@@ -1,4 +1,4 @@
-package exceptions;
+
 
 public class Finally {
 static void demoA() {
