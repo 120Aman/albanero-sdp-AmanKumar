@@ -1,4 +1,4 @@
-package exceptions;
+
 import java.util.Scanner;
 class InvalidAgeException extends Exception{  
 	String A;
