@@ -1,4 +1,3 @@
-package exceptions;
 
 public class Throw {
 	static void demo() {
