@@ -1,4 +1,4 @@
-package Synchronization;
+
 class Q{
 	int n;
 	boolean b=false;
