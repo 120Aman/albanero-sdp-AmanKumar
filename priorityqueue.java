@@ -1,4 +1,4 @@
-package queueinterface;
+
 import java.util.*; 
 public class priorityqueue {
 	  
