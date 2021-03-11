@@ -1,4 +1,4 @@
-package Functionalinterfaces;
+
 interface Show{  
     void show(String msg);  
 }  
