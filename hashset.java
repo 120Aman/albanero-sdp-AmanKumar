@@ -1,4 +1,4 @@
-package setinterface;
+
 import java.util.*;  
 public class hashset {
 
