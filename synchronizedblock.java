@@ -1,4 +1,4 @@
-package Synchronization;
+
 class callme{
 	 void call(String msg) {
 		System.out.print("[" + msg );
