@@ -1,7 +1,5 @@
 package com.example.demo;
 
-import java.util.ArrayList;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
@@ -11,8 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
-
-import antlr.collections.List;
 
 @Entity
 @Table(name = "users")
@@ -33,9 +29,6 @@ public class User {
     private long mobilenumber;
     @Column(name = "current_organization", nullable = false)
     private String currentorganization;
-    
-    public User(String string, String string2, String string3, String string4, String string5, String string6) {
-	}
 	public long getId() {
 		return id;
 	}
