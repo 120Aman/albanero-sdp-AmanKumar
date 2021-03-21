@@ -34,7 +34,9 @@ public class User {
     @Column(name = "current_organization", nullable = false)
     private String currentorganization;
     
-    public long getId() {
+    public User(String string, String string2, String string3, String string4, String string5, String string6) {
+	}
+	public long getId() {
 		return id;
 	}
 	public void setId(long id) {
