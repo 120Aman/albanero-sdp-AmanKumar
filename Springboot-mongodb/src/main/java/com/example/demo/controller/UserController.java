@@ -46,6 +46,13 @@ public class UserController {
 		userRepository.delete(users);
 		return userRepository.findAll();
 	}
+	@GetMapping("/users/login/{userName}")
+	public boolean validate(@PathVariable(value="userName") String username ) {
+		Users users = userRepository.findByUserName(username);
+		long i = users.getId();
+		boolean B = userRepository.existsById(i);
+		return B;
+	}
 
 	@PutMapping("/users/Transactions/{id}")
 	public List<Users> updateusers(@PathVariable(value = "id") Long Id, @Validated @RequestBody Users account) {
